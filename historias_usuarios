@@ -1,1 +1,68 @@
+ A CONTINUACION TE DATELLO UNA LISTA DE MIS HISTORIAS DE USUARIOS
 
+
+1 Logina con credenciales válidas
+Quiero usar mi sistema Orbi para ingresar a mi ayuda escolar
+
+Criterios de aceptación
+Se debe acceder a los campos de entrada al usuario y un código de acceso al cargar la página web
+Al proporcionar identificadores precisos, la interfaz debe navegar a la interfaz de usuario
+Se debe crear una notificación o índice de saludo si se otorgó el acceso
+
+Criterios de rechazo
+Si alguno de los campos está vacante, el sistema debe mostrar un mensaje de alerta
+Si las calificaciones no son legítimas, debe señalarse que la entrada fue rechazada
+
+2 Recuperación de palabras de paso
+Como aprendizaje inscrito en Orbi, deseo recuperar mi contraseña cuando se olvide para recuperar la entrada a mi perfil sin problemas
+
+Criterios de aceptación
+El sistema debe ofrecer una conexión o botón evidente para recuperar la contraseña
+Al hacer clic en el hipervínculo, el correo electrónico vinculado a la cuenta debe solicitarse
+-El sistema debe enviar un correo electrónico con instrucciones para restaurar la contraseña
+
+Criterios de rechazo
+-Ise el enlace de recuperación no está disponible o no funcional
+-Isi, el sistema no valida correctamente el correo electrónico ingresado
+-❌ Si el correo de recuperación no se envía o contiene enlaces rotos
+
+
+3. Nuevo registro de cuenta
+Soy nuevo en Orbi y me gustaría registrarme sin ningún problema
+Para acceder a los servicios académicos ofrecidos
+
+Criterios de aceptación
+-El sistema debe ofrecer un formulario de registro accesible desde la página principal
+-El formulario debe solicitar información esencial como nombre, correo electrónico y contraseña
+Después de terminar el registro, el sistema debe asegurarse de que se haya hecho la cuenta y dejar que el usuario inicie sesión
+
+Criterios de rechazo
+-Isi el formulario de registro no está disponible o presenta errores al cargar
+-Isi el sistema no valida correctamente los campos obligatorios
+Al terminar la inscripción, el individuo no puede acceder a la cuenta utilizando la información suministrada
+
+
+4Pontar datos personales
+Soy un estudiante y necesito cambiar mis datos personales para asegurarme de que mi información esté actualizada
+
+Criterios de aceptación
+El sistema debe permitir la alteración de los detalles individuales, incluida la residencia, los dígitos de telecomunicaciones y el correo electrónico
+-✅ debe ser una confirmación de que los cambios se guardaron con éxito
+
+Criterios de rechazo
+Si los cambios no se registran o se muestran en el perfil del estudiante, es un error
+Si el sistema no le permite cambiar algunos campos sin una buena razón, no funciona bien
+
+5 Visualización de información académica
+Como estudiante con acceso a Orbi, quiero poder ver mis propios detalles de la escuela
+Para ser consciente de mi progreso y detalles relevantes
+
+Criterios de aceptación
+Después de terminar la clase, el sistema debe mostrar el nombre completo del alumno, sus detalles de inscripción y su programa de grado elegido
+-La la información debe actualizarse y reflejar los datos oficiales del estudiante
+-Se debe haber opciones para actualizar ciertos datos personales si es necesario
+
+Criterios de rechazo
+-❌ Si la información mostrada es incorrecta o desactualizada
+-Isi el sistema no permite visualizar la información académica después del registro
+Si no hay alternativa para modificar la información personal cuando es pertinente
